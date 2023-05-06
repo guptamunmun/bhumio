@@ -1,0 +1,85 @@
+
+/* Styles for top container section */
+section.top-container {
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Styles for save button */
+section.top-container a[href="/users/save"] button[type="button"] {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  width:90px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for load button */
+section.top-container a[href="/users/pdf"] button[type="button"] {
+  /* Add your styles here */
+  margin: 10px;
+  padding: 10px;
+  background-color:red;
+  width:90px;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+/* Styles for middle container section */
+section.middle-container {
+  /* Add your styles here */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for buttons one and two */
+section.middle-container button:nth-of-type(1),
+section.middle-container button:nth-of-type(2) {
+  /* Add your styles here */
+  margin: 5px 8px;
+  width:80px;
+  height:30px;
+  background-color:lightblue;
+  text-align: left;
+}
+
+/* Styles for select element */
+section.middle-container select {
+  /* Add your styles here */
+  margin:5px 8px;
+  height:30px;
+  width:100px;
+  background-color:lightblue;
+  
+}
+
+
+
+
+
+/* Styles for buttons three and four */
+section.last-container button:nth-of-type(1),
+section.last-container button:nth-of-type(2) {
+  /* Add your styles here */
+  margin: 5px 8px;
+  width:80px;
+  height:30px;
+  background-color:lightblue;
+  text-align: left;
+}
+
+/* Styles for select element */
+section.last-container select {
+  /* Add your styles here */
+  margin:5px 8px;
+  height:30px;
+  width:100px;
+  background-color:lightblue;
+}
+
+
